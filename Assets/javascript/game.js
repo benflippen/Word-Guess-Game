@@ -97,7 +97,8 @@ function Hangman() {
         "owl",
         "excellent",
         "sweet",
-        "mango"
+		"mango",
+		"waffles"
 	]
 
 	this.word = this.wordList[Math.floor(Math.random() * this.wordList.length)];
