@@ -12,7 +12,7 @@ var lossCountElement = document.getElementById("loss-count");
 var blinkElements = document.getElementsByClassName("blinking");
 var alertLineElements = document.getElementsByClassName("alert-line");
 
-var validGuesses = [ 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' ];
+var validGuesses = [ 'a', 'b', 'c', 'd', 'e', 'f', , 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z' ];
 
 var pressAnyKeyToStart = [
 	" ___                                       _                _              _               _   ",
@@ -98,7 +98,8 @@ function Hangman() {
         "excellent",
         "sweet",
 		"mango",
-		"waffles"
+		"waffles",
+		"pancake"
 	]
 
 	this.word = this.wordList[Math.floor(Math.random() * this.wordList.length)];
