@@ -1,5 +1,5 @@
-var wins = 0;
-var losses = 0;
+var wins = 1;
+var losses = 1;
 
 var maxErrors = 6;
 
