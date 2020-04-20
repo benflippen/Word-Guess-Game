@@ -102,7 +102,8 @@ function Hangman() {
 		"pancake",
 		"frozen",
 		"mumble",
-		"jungle"
+		"jungle",
+		"vague"
 	]
 
 	this.word = this.wordList[Math.floor(Math.random() * this.wordList.length)];
